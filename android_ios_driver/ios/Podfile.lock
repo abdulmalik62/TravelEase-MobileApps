@@ -1,0 +1,119 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_mapbox_navigation (0.2.2):
+    - Flutter
+    - MapboxCoreNavigation (~> 2.11)
+    - MapboxNavigation (~> 2.11)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - geocoding_ios (1.0.5):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - MapboxCommon (23.9.2)
+  - MapboxCoreMaps (10.17.0):
+    - MapboxCommon (~> 23.9)
+  - MapboxCoreNavigation (2.18.0):
+    - MapboxDirections (~> 2.12.0)
+    - MapboxNavigationNative (~> 204.0.1)
+  - MapboxDirections (2.12.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.7.0)
+  - MapboxMaps (10.17.0):
+    - MapboxCommon (= 23.9.2)
+    - MapboxCoreMaps (= 10.17.0)
+    - MapboxMobileEvents (= 1.0.10)
+    - Turf (= 2.7.0)
+  - MapboxMobileEvents (1.0.10)
+  - MapboxNavigation (2.18.0):
+    - MapboxCoreNavigation (= 2.18.0)
+    - MapboxMaps (~> 10.17.0)
+    - MapboxSpeech (~> 2.0)
+    - Solar-dev (~> 3.0)
+  - MapboxNavigationNative (204.0.1):
+    - MapboxCommon (~> 23.9)
+  - MapboxSpeech (2.1.1)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - Polyline (5.1.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - Solar-dev (3.0.1)
+  - Toast (4.0.0)
+  - Turf (2.7.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_mapbox_navigation (from `.symlinks/plugins/flutter_mapbox_navigation/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - geocoding_ios (from `.symlinks/plugins/geocoding_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar-dev
+    - Toast
+    - Turf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_mapbox_navigation:
+    :path: ".symlinks/plugins/flutter_mapbox_navigation/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  geocoding_ios:
+    :path: ".symlinks/plugins/geocoding_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_mapbox_navigation: 1d7e1c22554f4e6543209f7f0063393c9a6d53bf
+  fluttertoast: 9f2f8e81bb5ce18facb9748d7855bf5a756fe3db
+  geocoding_ios: d7460f56e80e118d57678efe5c2cdc888739ff18
+  location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
+  MapboxCommon: 768660d6fca8193529ecf82eb6f5f9ae7a5acdf9
+  MapboxCoreMaps: be412ff97b16aa7820922c818115a9a0d8211caa
+  MapboxCoreNavigation: 55f7fe5f332127ce0ce9bb020a5f489561c8cd05
+  MapboxDirections: 4676f626df320732dcf74612223e568d39588320
+  MapboxMaps: 87ef0003e6db46e45e7a16939f29ae87e38e7ce2
+  MapboxMobileEvents: de50b3a4de180dd129c326e09cd12c8adaaa46d6
+  MapboxNavigation: 733255d688f128573e8fffbe395bc262cd090aa7
+  MapboxNavigationNative: cf3640d04da6e67b701f76b1c502954286efee06
+  MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+  Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Turf: 13d1a92d969ca0311bbc26e8356cca178ce95da2
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.14.3
